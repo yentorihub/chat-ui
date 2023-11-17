@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>당근마켓 채팅</title>
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <header>
+      <div class="info-bar-left">
+        <div class="back-icon">
+          <img src="svg/back.svg" alt="" />
+        </div>
+        <div class="info-bar-leftdetail">
+          <div class="info-bar-leftup">
+            <div class="writer">슬기맘</div>
+            <div class="manner_temp">36.5 ºC</div>
+          </div>
+          <div class="reply-time">보통 1시간 이내 응답</div>
+        </div>
+      </div>
+      <div class="info-bar-right">
+        <div class="phone-icon">
+          <img src="svg/phone.svg" alt="phone" />
+        </div>
+        <div class="ellipsis-icon">
+          <img src="svg/ellipsis.svg" alt="ellipsis" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="fixed-area">
+        <div class="picture">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="baby-carriage"
+          />
+        </div>
+        <div class="text-area">
+          <div class="title">유모차 팔아요</div>
+          <div class="price">50,000원</div>
+        </div>
+      </div>
+      <div class="chat-area">
+        <div class="chat-1">
+          <div class="chat-time chat-time-1">오후 3:45</div>
+          <div class="chatting-1">
+            오늘 시민공원 근처에서 7시에 가능하<br />신가요?
+          </div>
+        </div>
+        <div class="chat-2">
+          <div class="mini-profile">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+            />
+          </div>
+          <div class="chatting-2">네 가능해요 그때 봐요!</div>
+          <div class="chat-time chat-time-2">오후 3:45</div>
+        </div>
+      </div>
+      <div class="date-box">
+        <div class="calendar-icon">
+          <img src="svg/calendar.svg" alt="calendar" />
+        </div>
+        <div date-info>
+          <div class="date-detail">4월 28일 (수) 오후 7:00</div>
+          <div class="date-description">슬기맘님이 거래 약속을 설정했어요.</div>
+        </div>
+      </div>
+      <div class="date-alram-info">
+        약속 시간 30분 전에 슬기맘님에게 알림이 울릴 거예요.
+      </div>
+    </main>
+    <footer>
+      <div class="footer-message">
+        <div class="plus-icon">
+          <img src="svg/plus.svg" alt="plus" />
+        </div>
+        <div class="text-box">
+          <div class="text-description">메시지를 입력하세요.</div>
+          <div class="emoticon-icon">
+            <img src="svg/smile.svg" alt="emoticon" />
+            <div class="new-circle"></div>
+          </div>
+        </div>
+        <div class="send-icon"><img src="svg/send.svg" alt="send" /></div>
+      </div>
+    </footer>
+  </body>
+</html>
